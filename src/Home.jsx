@@ -19,7 +19,7 @@ export default function Home({ allSubjects, handleStartGame }) {
             </div>
             <div className="subject-title">{subject.name}</div>
             <div className="play-btn-container">
-              <img className="play-btn" src="src/assets/play.svg"></img>
+              <img className="play-btn" src="/play.svg"></img>
             </div>
           </div>
         );
